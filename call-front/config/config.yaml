@@ -1,0 +1,17 @@
+couchdb_config:
+     couchdb_host: 172.17.0.3
+     couchdb_port: 5984
+
+     couch_username: admin
+     couch_password: password
+
+     front_caller_db: callerformdb
+
+callapi_config:
+     callapi_host: localhost
+     callapi_port: 8080
+     misscallapi_endpoint: /misskall/v1
+     callapi_secretword: ABCDXYZ
+     
+
+
